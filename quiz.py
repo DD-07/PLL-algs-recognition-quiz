@@ -22,4 +22,26 @@ Gc_alg = "R2 U' (R U' R U) (R' U R2 D') (U R U' R') D [U']"
 Gd_alg = "D' (R U R' U') D (R2 U' R U') (R' U R' U) R2 [U]"
 alg = "x x' y y' z' z"     
 
+#Variables for quiz itself
+points = 0
+
+answer_1 = input("Q1) What is this PLL algorithm?")
+
+#Start of quiz
+print("What is this PLL algorithm?")
+print(Ub_alg)
+print("a) Ub")
+print("b) Rb")
+print("c) Na")
+
+if answer_1 == "a" or answer_1 == "a)":
+  print("Correct!")
+  print("Points: " + str(points += 1))
+elif answer_1 == "a" or answer_1 == "b)":
+  print("Wrong, " + Ub_alg + " was Ub")
+  print("Points: " + str(points))
+elif answer_1 == "c" or answer_1 == "c)":
+  
+  
+  
 
