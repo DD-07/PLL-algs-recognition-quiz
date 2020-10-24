@@ -42,16 +42,62 @@ elif answer_1 == "c" or answer_1 == "c)":
 answer_2 = input("Q2) What is this PLL algorithm?" + Y_alg + "a) H, b) Ga, c) Y")
 if answer_2 == 'a' or answer_2 == 'a)': 
   print("Wrong, " + Y_alg + " was Y perm")
-  print("Points: " + str(points)
+  print("Points: " + str(points))
 elif answer_2 == 'b' or answer_2 == 'b)':
   print("Wrong, " + Y_alg + " was Y perm")
-  print("Points: " + str(points)
+  print("Points: " + str(points))
 elif answer_2 == 'c' or answer_2 == 'c)':
   print("Correct!")
   points = points + 1
   print("Points: " + str(points))
 #Question 3/////////////////////////////////
-answer_3 = input("
+answer_3 = input("Q3) Which of the following represents the Ja algorithm?" + "a) " + Ub_alg + " b) " + Ja_alg + " c) " + Aa_alg)
+if answer_3 == 'a' or answer_3 == 'a)':
+  print("Wrong, this algorithm is the Aa algorithm.")
+  print("Points: " + str(points))
+elif answer_3 == 'b' or answer_3 == 'b)':
+  print("Correct!")
+  points = points + 1
+  print("Points: " + str(points))
+elif answer_3 == 'c' or answer_3 == 'c)':
+  print("Wrong, this algorithm was the Ja algorithm.")
+  print("Points: " + str(points))
+#Question 4///////////////////////////////////////////////////
+answer_4 = input("Q4) How many G perms are there? a) 3 b) 6 c) 4")
+if answer_4 == 'a' or answer_4 == 'a)':
+  print("Wrong, there are 4 G perms in total.")
+  print("Points: " + str(points))
+elif answer_4 == 'b' or answer_4 == 'b)':
+  print("Wrong, there are 4 G perms in total.")
+  print("Points: " + str(points))
+elif answer_4 == 'c' or answer_4 == 'c)':
+  print("Correct!")
+  points = points + 1
+  print("Points: " + str(points))
+#Question 5/////////////////////////////////////
+answer_5 = input("Q5) How many moves are in the T perm? a) 15 b) 13 c) 18")
+if answer_5 == 'a' or answer_5 == 'a)':
+  print("Correct!")
+  points = points + 1
+  print("Points: " + str(points))
+elif answer_5 == 'b' or answer_5 == 'b)':
+  print("Wrong, the T perm has 15 moves")
+  print("Points: " + str(points))
+elif answer_5 == 'c' or answer_5 == 'c)':
+  print("Wrong, the T perm has 15 moves")
+  print("Points: " + str(points))
+print("Well done! You have come to the end of the quiz!")
+if points < 3:
+  print("It's ok, you can do better next time!")
+  print("Thank you for playing! I hope you are now more familiar with the PLL algorithms!")
+else:
+  print("Great job! You are a master!")
+  print("Thank you for playing! I hope you are now more familiar with the PLL algorithms!")
+
+        
+  
+
+
 
 
   
