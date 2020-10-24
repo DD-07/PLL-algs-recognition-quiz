@@ -25,22 +25,35 @@ alg = "x x' y y' z' z"
 #Variables for quiz itself
 points = 0
 
-answer_1 = input("Q1) What is this PLL algorithm?")
-
 #Start of quiz
-print("What is this PLL algorithm?")
-print(Ub_alg)
-print("a) Ub")
-print("b) Rb")
-print("c) Na")
-
+#Question 1 /////////////////////////////////////////////////////////////////////////
+answer_1 = input("Q1) What is this PLL algorithm?" + Ub_alg + "a) Ub, b) Rb, c) Na")
 if answer_1 == "a" or answer_1 == "a)":
   print("Correct!")
-  print("Points: " + str(points += 1))
-elif answer_1 == "a" or answer_1 == "b)":
-  print("Wrong, " + Ub_alg + " was Ub")
+  points = points + 1
+  print("Points: " + str(points))
+elif answer_1 == "b" or answer_1 == "b)":
+  print("Wrong, " + Ub_alg + " was Ub perm")
   print("Points: " + str(points))
 elif answer_1 == "c" or answer_1 == "c)":
+  print("Wrong, " + Ub_alg + " was Ub")
+  print("Points: " + str(points))
+#Question 2//////////////////////////////////////////////////////////////////////
+answer_2 = input("Q2) What is this PLL algorithm?" + Y_alg + "a) H, b) Ga, c) Y")
+if answer_2 == 'a' or answer_2 == 'a)': 
+  print("Wrong, " + Y_alg + " was Y perm")
+  print("Points: " + str(points)
+elif answer_2 == 'b' or answer_2 == 'b)':
+  print("Wrong, " + Y_alg + " was Y perm")
+  print("Points: " + str(points)
+elif answer_2 == 'c' or answer_2 == 'c)':
+  print("Correct!")
+  points = points + 1
+  print("Points: " + str(points))
+#Question 3/////////////////////////////////
+answer_3 = input("
+
+
   
   
   
